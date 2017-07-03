@@ -8,9 +8,9 @@
 	<base href="./">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<script>
+	<!--<script>
 		window.$ = window.jQuery = require('jquery-3.2.1.min.js');
-	</script>
+	</script>-->
 
 	<style>
 	body {
@@ -43,7 +43,7 @@
 		<img id="light1Icon" src="lightbulb-on.png" alt="Light On">
 		<span>Living Room</span>
 	</div>
-	<script>
+	<!--<script>
 	  $('#rcorners2').on('touchend click', function(){
 		if($('#light1Icon').attr("src") == 'lightbulb-off.png'){
 			$('#light1Icon').attr("src",'lightbulb-on.png');
@@ -51,11 +51,11 @@
 			$('#light1Icon').attr("src",'lightbulb-off.png');
 		  }
 	  });
-	</script>
+	</script>-->
   </body>
   <script>
     // You can also require other files to run in this process
-    //require('./renderer.js')
+    require('index.js')
 	//require('bootstrap');
   </script>
 </html>
