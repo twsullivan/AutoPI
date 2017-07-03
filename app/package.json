@@ -27,7 +27,8 @@
   "bugs": {
     "url": "https://github.com/resin-io/resin-electronjs/issues"
   },
-  "homepage": "https://github.com/resin-io/resin-electronjs#readme",
+  "homepage": "./",
+  "publicPath:": "./",
   "jshintConfig": {
     "esversion": 6,
     "strict": true
