@@ -39,6 +39,8 @@ if (process.env.NODE_ENV === 'development') {
   });
 }
 
+console.log('Here: ' + app.getAppPath());
+
 /*
  we initialize our application display as a callback of the electronJS "ready" event
  */
