@@ -7,6 +7,8 @@
     <title>Home Automation</title>
 	
 	<script>
+		var app = require('remote').require('app');
+		console.log(app.getAppPath());
 		window.$ = window.jQuery = require('data/jquery-3.2.1.min.js');
 	</script>
 
