@@ -1,0 +1,22 @@
+body {
+	background: #202020;
+	color: #FFFFFF;
+}
+
+#rcorners2 {
+	border-radius: 15px;
+	border: 2px solid #808080;
+	padding: 20px;
+	width: 140px;
+	height: 150px;
+	text-align: center;
+	margin: 20px 10px 10px 10px;
+	vertical-align: middle;
+}
+img {
+	padding-top: 25px;
+	width:64px;
+	height:64px;
+	display: block;
+	margin: 0 auto;
+}
