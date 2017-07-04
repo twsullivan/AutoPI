@@ -1,4 +1,4 @@
-let t = require('electron');
+let $ = require('jquery');
 $('#rcorners2').on('touchend click', function(event){
 	if($('#light1Icon').attr("src") == 'lightbulb-off.png'){
 		$('#light1Icon').attr("src",'lightbulb-on.png');
